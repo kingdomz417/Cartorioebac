@@ -123,9 +123,9 @@ int main()
 	for(x=1;x=1;)
 	 {
 	 	
-	 system("cls");
+	      system("cls");
 
-    setlocale(LC_ALL, "Portuguese"); //Definindo a linguaguem
+          setlocale(LC_ALL, "Portuguese"); //Definindo a linguaguem
      
 	printf("### Conjuntos da EBAC ###\n\n"); //Inicio do menu
 	printf("Escolha a opção que desejar:\n\n");
@@ -133,36 +133,36 @@ int main()
 	printf("\t2 - Consultar os nomes\n");
 	printf("\t3 - Deletar os nomes\n"); //Fim do menu
 	printf("\t4 - Sair do sistema\n\n");
-    printf("Opção: ");
-    scanf("%d", &opcao); //Armazenando a escolha do usuário
+          printf("Opção: ");
+          scanf("%d", &opcao); //Armazenando a escolha do usuário
     
     system("cls"); //responsavel por limpar a tela
     
     
     switch(opcao) //inicio da seleção do menu
     {
-    	case 1:
-        registro(); //chamada de funções
-		break;
+    	     case 1:
+             registro(); //chamada de funções
+		     break;
 		
-		case 2:
-		consulta();
-    	break;
+		     case 2:
+		     consulta();
+    	     break;
     	
-    	case 3:
-    	deletar();
-		break;
+    	     case 3:
+    	     deletar();
+		     break;
 		
-		case 4:
-			printf("Obrigado por utilizar o sistema!\n");
-			return 0;
-			break;
+		     case 4:
+		     printf("Obrigado por utilizar o sistema!\n");
+		     return 0;
+		     break;
 		
-		default:
-		printf("Essa opção não esta disponivel.");
-		system("pause");
-		break;
-		//fim da seleção
+		     default:
+		     printf("Essa opção não esta disponivel.");
+		     system("pause");
+		     break;
+		     //fim da seleção
 	}
     
     
